@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    color: #fff;
+}
+ul li{
+    list-style: none;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+nav, section{
+    background-color: #222222;
+    color: #fff;
+}
+.nav-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 80%;
+}
+.nav-link ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav-link ul li{
+    list-style: none;
+    cursor: pointer;
+}
+.nav-link .menu{
+    width: 50%;
+}
+.detail{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.button{
+    display: flex;
+    padding: 20px 0;
+    align-items: center;
+}
+.button a{
+    margin: 0 20px 0 0;
+    border: 3px solid white;
+    border-radius: 5px;
+   
+}
+.description{
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button a{
+    color: #fff;
+    text-decoration: none;
+    max-height: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    width: 256px;
+    justify-content: center;
+    text-align: center;
+}
+.button a:first-child{
+    background-color: #00B6d1;
+}
+.button a:nth-child(2):hover{
+    background-color: rgba(255,255,255,0.27);
+    transition: 0.4s;
+}
+
+.awards .des{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.awards .award{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0 24px 0;
+}
+.testimonal{
+    background: yellow;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+}
+.features{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 0;
+}
+
+.features .icon{
+    font-size: 56px;
+}
+.features .box{
+    max-width: 18%;
+    text-align: center;
+}
+
+.features .logo{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.security{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 50px 20px 50px;
+}
+.security img{
+    max-width: 25%;
+}
+.security .sec_des{
+    width: 50%;
+}
+.sec_des h3{
+    font-size: 32px;
+    padding: 30px 0;
+}
+.sec_des p{
+    width: 60%;
+    padding: 20px 0px;
+    font-size: 16px;
+}
+.sec_des button{
+    padding: 12px 20px;
+    min-width: 256px;
+    min-height: 48px;
+    background: yellow;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.products_section .title{
+    font-size: 32px;
+    padding: 20px 0;
+}
+.products_section{
+    text-align: center;
+    padding: 20px 0;
+}
+.products_section h3{
+    font-weight: 400;
+    margin: 10px;
+}
+.products_section .box img{
+    width: 150px;
+    padding: 24px 0;
+    margin: 30px 0 0 0;
+}
+.products_section .product{
+    display: flex;
+    justify-content: center;
+}
+.products_section .box{
+    max-width: 15.6%;
+}
+.products_section p{
+    font-size: 14px;
+    min-height: 100px;
+}
+.products_section a, .testimonals a{
+    background-color: #00B6d1;
+    text-decoration: none;
+    max-height: 45px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    width: 150px;
+    justify-content: center;
+    border-radius: 8px;
+}
+.product .download{
+    display: flex;
+    justify-content: center;
+}
+.testimonals h3{
+    font-size: 32px;
+    text-align: center;
+    margin: 60px 0 20px 0;
+}
+.testimonals .dev_testimonals{
+    display: flex;
+    justify-content: space-evenly;
+}
+.testimonals .dev_testimonals .descri{
+    width: 40%;
+}
+.testimonals .dev_testimonals .descri h4{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.testimonals .dev_testimonals .descri p{
+    padding-bottom: 20px;
+}
+.testimonals a{
+    width: 40%;
+    margin: 30px auto;
+}
+footer .container{
+    display: flex;
+    justify-content: space-evenly;
+}
+footer .box{
+    width: 20%;
+}
+footer{
+    padding: 40px 0;
+    background: #f6f6f6;
+}
+footer input{
+    padding: 14px 15px;
+    border-radius: 9px;
+    border: none;
+    outline: 1px solid gray;
+    margin-top: 10px;
+}
+footer button{
+    padding: 13px;
+    width: 194px;
+    border-radius: 9px;
+    border: none;
+    color: #fff;
+    margin-top: 10px;
+    background-color: #00B6d1;
+    font-weight: bold;
+}
